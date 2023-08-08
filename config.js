@@ -3,24 +3,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = "94786802371"
+global.owner = "923082990885"
 global.mongodb = process.env.MONGODB_URI || "mongodb://ugykkx9yl6qknshgcown:lJ18kzUxXP5IqyyUZZc@bdzoktb5vy7mozj8zh6k-mongodb.services.clever-cloud.com:2319/bdzoktb5vy7mozj8zh6k"
 global.port= process.env.PORT || 3000
 global.email = 'nimeshofficial.info@gmail.com'
-global.github = 'https://github.com/nimesh-official/Black-Dragon'
-global.location = 'Sri Lanka'
+global.github = 'https://github.com/Rawmver/Black-Dragon'
+global.location = 'Pakistan'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94786802371'
-global.devs = '94786802371';
-global.website = 'https://github.com/nimesh-official/Black-Dragon'
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/17d25248a18357d93d98e.jpg'
+global.sudo = process.env.SUDO || '923082990885'
+global.devs = '923082990885';
+global.website = 'https://github.com/Rawmver/Black-Dragon'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/OnWQHIS.jpeg'
 module.exports = {
-  botname:   process.env.BOT_NAME || 'Black Dragon',
-  ownername: process.env.OWNER_NAME || 'Nimesh Official',
-  sessionName:  process.env.SESSION_ID || 'Blackdragon;;;93QHXL7I#z7FsuiPEsD4RVBIOFELOE98SZXcwFrVGDiue3SxDz78',
-  author:  process.env.PACK_INFO === (";")[0] || 'Nimesh Official',
+  botname:   process.env.BOT_NAME || 'Black LuciFER,
+  ownername: process.env.OWNER_NAME || 'LuciFER Official',
+  sessionName:  process.env.SESSION_ID || '',
+  author:  process.env.PACK_INFO === (";")[0] || 'LuciFER',
   auto_read_status :  process.env.AUTO_READ_STATUS || 'false',
-  packname:  process.env.PACK_INFO === (";")[1] || 'Black-Dragon',
+  packname:  process.env.PACK_INFO === (";")[1] || 'LuciFER',
   autoreaction:  process.env.AUTO_REACTION || 'false',
   antibadword :  process.env.ANTI_BAD_WORD || 'nbwoed',
   alwaysonline:  process.env.ALWAYS_ONLINE || 'false',
@@ -40,12 +40,12 @@ module.exports = {
   heroku:  process.env.heroku || 'false',
   HEROKU: {
     HEROKU: process.env.HEROKU || 'false',
-    API_KEY: process.env.HEROKU_API_KEY || '1abfce1e-1bee-4334-9f6c-f4c1cb1cafab',
-    APP_NAME: process.env.HEROKU_APP_NAME || 'zeropgg'
+    API_KEY: process.env.HEROKU_API_KEY || '',
+    APP_NAME: process.env.HEROKU_APP_NAME || ''
 },
   VERSION: process.env.VERSION || 'v.0.0.3',
   LANG: process.env.THEME || 'DRAGON',
-  WORKTYPE: process.env.WORKTYPE || 'public'
+  WORKTYPE: process.env.WORKTYPE || 'private'
 };
 
 
